@@ -59,12 +59,14 @@ export default function NavBarUI({ UserLogin, sizeBreak }: NavBarProps) {
                             </div>
                             <div className={"flex flex-1 items-center justify-center navBreak:items-stretch navBreak:justify-start"}>
                                 <div className="flex flex-shrink-0 items-center">
+                                    {/*
+                                    Logo image
                                     <Image
                                         src="/images/logo5_light.webp"
                                         alt="Logo"
                                         className="h-10 w-auto"
                                         width="233"
-                                        height="246"></Image>
+                                    height="246"></Image>*/}
                                 </div>
                                 <div className={"hidden navBreak:ml-6 navBreak:block"}>
                                     <div className="flex space-x-4">
