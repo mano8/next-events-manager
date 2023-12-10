@@ -73,4 +73,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  .border-b-red-theme{
+    border-bottom-color: rgba(119, 11, 0, 0.74);
+  }
+  .title-article{
+    @apply uppercase border-b-2 border-spacing-2 border-b-red-theme pb-1 mb-3;
+  }
+  .title-article-rose{
+    @apply uppercase border-b-2 border-spacing-2 border-rose-500 pb-1 mb-3;
+  }
 }
