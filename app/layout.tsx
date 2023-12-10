@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={clsx(inter.className, "bg-background h-full min-h-screen")}>
+      <body className={clsx(inter.className, "bg-background h-full min-h-screen dark")}>
         <div className="flex flex-col h-full min-h-screen">
           <Header />
           <div className='flex-1 m-auto pt-14 w-full h-full z-20'>{children}</div>
