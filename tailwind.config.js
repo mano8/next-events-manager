@@ -15,6 +15,14 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      'sm': '640px',
+      'navBreak': '740px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -49,6 +57,36 @@ module.exports = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        'card-sea':{
+          light: '#476e82',
+          DEFAULT: '#476e82',
+          dark: '#476e82',
+        },
+        'card-glass':{
+          light: '#6b78a3',
+          DEFAULT: '#6b78a3',
+          dark: '#6b78a3',
+        },
+        'card-sky':{
+          light: '#082f49',
+          DEFAULT: '#082f49',
+          dark: '#082f49',
+        },
+        'card-blue':{
+          light: '#172554',
+          DEFAULT: '#172554',
+          dark: '#172554',
+        },
+        'card-amber':{
+          light: '#451a03',
+          DEFAULT: '#451a03',
+          dark: '#451a03',
+        },
+        'card-red':{
+          light: '#450a0a',
+          DEFAULT: '#450a0a',
+          dark: '#450a0a',
         },
       },
       borderRadius: {
